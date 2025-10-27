@@ -1,3 +1,21 @@
 node_modules/
 .env
 .DS_Store
+# Virtual environment
+.venv/
+
+# Environment variables (contains API keys)
+*.env
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Sensitive or large data files
+encrypted_genomic_data
+decrypted-genomic-data
+genomic_data
+Sarah_Waller_harvard
+
+# Other
+.DS_Store
